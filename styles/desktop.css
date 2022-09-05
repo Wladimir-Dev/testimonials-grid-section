@@ -1,0 +1,22 @@
+
+.card_purple {
+    grid-row: 1;
+    grid-column: span 2;
+}
+.card_grey {
+    grid-row: 1;
+    grid-column: span 1;
+}
+.card_white-right {
+    grid-row: 1/span 2;
+    grid-column: span 2;
+}
+.card_white-left {
+    grid-row: 2;
+    grid-column: span 1;
+}
+.card_black {
+    grid-row: 2;
+    grid-column: span 2;
+}
+

@@ -1,0 +1,36 @@
+
+.cards-container {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1110px;
+    row-gap: 24px;
+    column-gap: 30px;
+}
+
+.card {
+    height: 100%;
+}
+
+.card_purple {
+    grid-row: 1;
+    grid-column: span 2;
+}
+
+.card_white-right {
+    grid-row: 1;
+    grid-column: span 2;
+}
+
+.card_grey {
+    grid-row: 2;
+    grid-column: span 2;
+}
+
+.card_black {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.card_white-left {
+    grid-row: 3;
+    grid-column: span 2;
+}
